@@ -1,0 +1,376 @@
+ul,ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+
+
+
+.contener-old {
+max-width: 1440px;
+height: 3595px;
+margin-left: auto;
+margin-right: auto;
+}
+.contener {
+   max-width: 1280px;
+    margin-left: auto;
+margin-right: auto;
+}
+.header__contener {
+    max-width:1280px;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 44px;
+   margin-bottom: 45px;
+}
+.header__logo {
+    width: 236px;
+height: 26px;
+}
+.header__list {
+    display: flex;
+    list-style-type: none;
+    width: 283px;
+height: 15px;
+justify-content: space-between;
+}
+.header__list-itim {
+    font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+
+/* main */
+
+
+main{
+    background-image: url(./../imgs/bacgraud-coffey.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(50%);
+    width: 1280px;
+height: 600px;
+}
+.contener__wrapper{
+    padding-top: 70px;
+    padding-left: 86px;
+}
+.coffee {
+    width: 493px;
+    height: 145px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+margin-bottom: 32px;
+}
+.coffee__text {
+width: 445px;
+height: 78px;
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+margin-top: 32px;
+margin-bottom: 56px;
+}
+
+.coffee__button {
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+width: 217px;
+height: 56px;
+background: #0E8784;
+border: none;
+border-radius: 6px;
+color: white;
+}
+/* qop */
+
+.contener__gran {
+    height: 840px;
+}
+.gran__list {
+    background-image: url(./../imgs/collection.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 21px)138px;
+    Width:1111px;
+    height: 196px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 262px 165px 179px 165px;
+
+}
+
+.gran__img {
+    width: 255px;
+height: 193px;
+margin-bottom: 67px;
+}
+.gran-espresso {
+    font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #333D4B;
+width: 255px;
+height: 32px;
+margin-bottom: 67px;
+}
+.gran__text {
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+width: 255px;
+height: 78px;
+margin-bottom: 179px;
+}
+
+
+/* choose */
+
+.contener__choose {
+    height: 577px;
+    background-color: #293039;
+    margin-bottom: 350px;
+}
+.choose {
+    height: 48px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #FEFCF7;
+padding-top: 100px;
+margin-bottom: 32px;
+
+}
+.choose-text {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+width: 540px;
+height: 80px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 78px;
+
+}
+
+/* best */
+
+.wrapper{
+    display: flex;
+    justify-content:center;
+    width: 1110px;
+    height: 382px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.best-contener {
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    background: #0E8784;
+    text-align: center;
+}
+.best + .best{
+    margin-left: 30px;
+}
+.best__img {
+    width: 71px;
+height: 72px;
+margin-top: 72px;
+margin-bottom: 56px;
+text-align: center;
+}
+.best-quality {
+    font-family: Fraunces 9pt;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #FEFCF7;
+}
+.best-text {
+    text-align: center;
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+width: 255px;
+height: 78px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* process */
+
+
+.process-contener {
+box-sizing: border-box;
+padding-left: 85px;
+}
+.process__heading {
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin: 0;
+margin-bottom: 80px;
+}
+.process__list {
+    margin-bottom: 64px;
+    display: flex;
+}
+.process__item {
+    width: 380px;
+
+}
+.process__icon-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 61px;
+}
+.process__circle {
+    display: inline-block;
+    border: 2px solid #0E8784;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+.process__line {
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    background-color: #FDD6BA;
+    flex-grow: 1;
+}
+.process__number {
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+margin-bottom: 38px;
+}
+.process__inner-heading {
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+margin-bottom: 42px;
+width: 255px;
+height: 73px;
+}
+.process__text {
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+width: 285px;
+height: 130px;
+}
+
+.button__coffee{
+    margin-bottom: 200px;
+}
+
+
+/* :future */
+.futer-contener {
+    display: flex;
+    background-color: #2C343E;
+    height: 120px;
+    width: 1280px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 47px 85px 39px 85px;
+   align-items: center;
+}
+.futer-logo {
+    width: 236px;
+height: 26px;
+
+}
+.futer__list {
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+height: 15px;
+margin-right: 398px;
+margin-left: 103px;
+}
+.futer__item {
+    font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+max-width: 92px;
+height: 15px;
+}
+.futer__web-sayt {
+    display: flex;
+    width: 120px;
+height: 24px;
+}
+.futer__web-sayt__link + .futer__web-sayt__link{
+    margin-left: 24px;
+}
+
+.link-img {
+    width: 24px;
+height: 24px;
+}
